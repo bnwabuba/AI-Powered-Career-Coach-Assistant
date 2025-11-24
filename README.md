@@ -1,7 +1,7 @@
 # AI-Powered-Career-Coach-Assistant
 Automating Skill-Gap Analysis, Training Recommendations and Coaching Workflow Using Amazon Q Business
 
-##Project Overview
+Project Overview
 
 Career4All, a career-development platform, was facing challenges scaling its coaching operations as learner volume increased. Coaches manually reviewed CVs, compared them with job descriptions, performed skill-gap analysis, searched through course catalogs, and generated personalized learning schedules. This workflow was time-consuming, inconsistent, and not scalable.
 
@@ -9,7 +9,7 @@ This project delivers an AI-powered Career Coach Assistant Application built wit
 
 The result is a scalable, secure, enterprise-ready application that improves efficiency, ensures consistency, and enhances the learner experience.
 
-##🎯 Core Objectives
+🎯 Core Objectives
 
 - Automate CV review and skill-gap analysis
 
@@ -28,7 +28,7 @@ The result is a scalable, secure, enterprise-ready application that improves eff
 - Enable scalable and continuous catalog updates
 
 
-##🔧 Technologies Used
+🔧 Technologies Used
 |Technology	                     |Purpose                                           |
 |--------------------------------|--------------------------------------------------|
 |Amazon Q Business	               |AI reasoning, document indexing, recommendations|
@@ -40,7 +40,7 @@ The result is a scalable, secure, enterprise-ready application that improves eff
 |S3 Sync Scheduling	               |Automatic catalog updates|
 
 
-##🧠 System Architecture <br>
+🧠 System Architecture <br>
 
   Learner CV + Job Description <br>
             ↓ <br>
@@ -57,17 +57,19 @@ Skill Gap Analysis → Training Recommendations → Learning Schedule <br>
             ↓ <br>
       Final Recommended Plan
 
-##🚀 Implementation Breakdown <br>
+🚀 Implementation Breakdown <br>
+
 Section 1 — Basic Application Setup <br>
+
 ✔ Step 1.1 — Created the base Q App
 
 A new Amazon Q App titled Career Coach Assistant was created.
 
 ✔ Step 1.2 — Added input cards
 
-Student CV Input
+- Student CV Input
 
-Job Description Input
+- Job Description Input
 
 These allow text or file content depending on lab constraints.
 
@@ -184,7 +186,7 @@ Self-harm
 
 These were blocked to ensure ethical and safe recommendations.
 
-##🧪 Testing & Validation
+🧪 Testing & Validation
 
 Testing included:
 
@@ -202,7 +204,7 @@ Testing included:
 
 The system worked smoothly across all scenarios.
 
-##⭐ Key Outcomes
+⭐ Key Outcomes
 
 - Reduced manual effort by ~80%
 
@@ -216,9 +218,11 @@ The system worked smoothly across all scenarios.
 
 - Fully cloud-native & serverless
 
+- App verified and shared
+
 - Perfect for real-world enterprise scenarios
 
-##📈 Future Enhancements
+📈 Future Enhancements
 
 - Integrate Amazon Bedrock for multimodal CV parsing (PDF/Images)
 
@@ -246,3 +250,5 @@ This project showcases real-world cloud engineering skills in:
 - No-code application development
 
 - AWS enterprise architecture
+
+I published an article on this: https://tinyurl.com/AWS-Career-Coaching-App
